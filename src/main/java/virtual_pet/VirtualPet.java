@@ -16,9 +16,7 @@ public class VirtualPet {
     }
     public void feed(){hungerLevel = Math.max(0,hungerLevel-4);
     }
-    public void thirst(){
-        //thirstLevel= Math.max(0,thirstLevel-4);
-        thirstLevel = 0;
+    public void thirst(){thirstLevel= Math.max(0,thirstLevel-4);
     }
     public void sleep (){boredomLevel= Math.max(0,boredomLevel-4);
     }
